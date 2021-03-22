@@ -98,3 +98,31 @@ body {
     text-decoration: none;
     margin-left: 30px;
 }
+
+/* MAIN */
+.first_screen {
+    background-image: url('../images/first_screen.png');
+    background-size: cover;
+    /*min-height: 810px;
+    height: 100%;*/
+}
+
+.first_screen .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo_first_screen {
+    margin: 160px auto 80px;
+}
+
+.first_screen_text {
+    font-family: PT Sans, serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0 auto 154px;
+    width: 730px;
+}
