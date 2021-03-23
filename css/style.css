@@ -86,7 +86,7 @@ body {
 }
 
 .navigation a:hover {
-    color: white;
+    color: #FFFFFF;
     background-color: #1F1F1F;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -126,3 +126,167 @@ body {
     margin: 0 auto 154px;
     width: 730px;
 }
+
+/* NEW SEASON */
+.second_screen {
+    display: flex;
+    flex-direction: row;
+}
+
+.new_season {
+    width: 100%;
+    /*min-width: 1040px;*/
+    background: #000000;
+}
+
+.new_season_item {
+    display: flex;
+    justify-content: center;
+    padding-top: 93px;
+    padding-bottom: 93px;
+    font-family: Playfair Display, serif;
+    font-weight: 700;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    position: relative;
+}
+
+.new_season_item:after {
+    position: absolute;
+    display: block;
+    content: "";
+    width: 120px;
+    height: 3px;
+    background-color: #FFFFFF;
+    top: 180px;
+}
+
+.season_card_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card {
+    position: relative;
+}
+
+.card img {
+    background-color: #191B1C;
+    width: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 22px 22px;
+}
+
+.card a {
+    position: absolute;
+    display: block;
+    content: "";
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.card figcaption {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    font-family: Playfair Display, serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-family: Playfair Display, serif;
+    font-weight: 700;
+    font-size: 21px;
+    color: #D0D0D0;
+    margin-bottom: 93px;
+}
+
+/* NEW COLLECTION */
+.new_collection {
+    background-image: url("../images/new_collection.png");
+    background-size: cover;
+    /*z-index: 5;*/
+    /*min-width: 860px;*/
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 500px;
+}
+
+.new_collection_text {
+    font-family: Playfair Display, serif;
+    font-weight: 700;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.new_collection_text:after {
+    position: absolute;
+    display: block;
+    content: "";
+    width: 120px;
+    height: 3px;
+    background-color: #FFFFFF;
+    top: 80px;
+}
+
+.new_collection button {
+    border: 1px solid #FFFFFF;
+    align-items: center;
+    padding: 12px 0;
+    width: 128px;
+    background: none;
+    font-family: PT Sans, serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 80px auto;
+}
+
+.new_collection button:hover {
+    cursor: pointer;
+    background-color: #969696;
+}
+
+.new_collection button:active,
+.new_collection button:focus {
+    outline-style: none;
+}
+
+/* COLLECTION 2018 */
+.third_screen {
+    display: flex;
+    flex-direction: row;
+    background: #000000;
+}
+
+.third_screen_image {
+    background-image: url("../images/third_screen.png");
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    min-width: 880px;
+}
+
+
