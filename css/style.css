@@ -436,3 +436,131 @@ body {
     display: flex;
     flex-direction: row;
 }
+
+.about,
+.category,
+.message {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    margin-right: 50px;
+}
+
+.about_title,
+.category_title,
+.message_title {
+    font-family: Playfair Display, serif;
+    font-weight: 400;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.about_text,
+.message_text {
+    font-family: PT Sans, serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.category_first_line,
+.category_second_line {
+    display: flex;
+    flex-direction: row;
+}
+
+.category_first_line button,
+.category_first_line button:active,
+.category_first_line button:focus,
+.category_second_line button,
+.category_second_line button:active,
+.category_second_line button:focus {
+    background-color: #0F0F0F;
+    font-family: PT Sans, serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #D0D0D0;
+    align-items: center;
+    padding: 10px 20px;
+    border-style: none;
+    outline: none;
+    text-transform: lowercase;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.category_second_line button {
+    margin-top: 20px;
+}
+
+.message form {
+    margin-top: 40px;
+}
+
+.email,
+.email:active,
+.email:focus {
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 210px;
+    height: 42px;
+    outline: none;
+    color: #FFFFFF;
+    border-style: none;
+}
+
+.email::placeholder {
+    color: #FFFFFF;
+    padding-left: 20px;
+}
+
+.submit,
+.submit:focus,
+.submit:active {
+    background: #0F0F0F;
+    font-family: PT Sans, serif;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    width: 100px;
+    height: 42px;
+    outline: none;
+    border-style: none;
+    cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+    background-color: #0F0F0F;
+}
+
+footer .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.copy {
+    font-family: PT Sans, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #D0D0D0;
+    padding: 20px 0;
+}
+
+.made_by a {
+    text-decoration: none;
+    font-family: PT Sans, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #D0D0D0;
+}
+
+.made_by {
+    padding: 20px 0;
+}
